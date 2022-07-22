@@ -1,0 +1,25 @@
+table{
+    width: 700px;
+    height: 300px;  
+    border-collapse: collapse;  
+
+}
+tr{
+    border-bottom: 1px solid rgb(201, 200, 200);
+}
+table tr:nth-child(2){
+    border-bottom: 1px solid blue;
+}
+
+table tr:nth-child(3){
+    border: 1px solid blue;
+}
+button{
+    width: 70%;
+    height: 30px;
+    border: none;
+    background-color: rgb(69, 167, 69);
+    color: white;
+}
+ 
+ 
